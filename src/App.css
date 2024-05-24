@@ -6,8 +6,10 @@ body{
 .container{
   margin:1em auto;
   width:317px;
+  border:2px solid green;
+  border-radius: 9px;
   
 }
 .avatar-img{
   width:100%;
-},khg,khj.kjhb
+}

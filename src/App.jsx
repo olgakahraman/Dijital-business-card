@@ -1,15 +1,15 @@
 import React from "react";
-import Avatar from "./components/Avatar";
-import Info from "./components/Info";
-import Footer from "./components/Footer";
+import CardHeader from "./components/CardHeader";
+import CardBody from "./components/CardBody";
+import CardFooter from "./components/CardFooter";
 import "./App.css";
 
 function App() {
   return (
     <div className="container">
-      <Avatar />
-      <Info />
-      <Footer />
+      <CardHeader />
+      <CardBody />
+      <CardFooter />
     </div>
   );
 }
