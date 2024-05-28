@@ -13,3 +13,24 @@ body{
 .avatar-img{
   width:100%;
 }
+.card-body{
+    color:#fff;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    line-height: 15px;
+}
+.card-body h1{
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+.card-body h3{
+    font-size: 12.8px;
+    font-weight: 400;
+    color: #F3BF99;
+
+}
+.card-body p{
+    font-size: 10.24px;
+    font-weight: 400;
+}
