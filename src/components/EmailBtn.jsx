@@ -3,7 +3,13 @@ import React from "react";
 export default function EmailBtn() {
   return (
     <button>
-      <i className="fa-solid fa-envelope"></i> Email
+      <a
+        href="mailto:ol.khrmn@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fa-solid fa-envelope"></i> Email
+      </a>
     </button>
   );
 }

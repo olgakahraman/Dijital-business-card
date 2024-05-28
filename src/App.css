@@ -1,13 +1,14 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #23252c;
+  
 }
 .container {
   margin: 1em auto;
   width: 317px;
-  border: 2px solid green;
+  border: 1px solid #161619;
   border-radius: 16px;
+   background-color: #1A1B21;
 }
 .avatar-img {
   width: 100%;
@@ -18,6 +19,7 @@ body {
   font-family: "Inter", sans-serif;
   line-height: 15px;
   margin: 25px;
+ 
 }
 .card-body h1 {
   font-size: 25px;
@@ -45,11 +47,17 @@ button {
   font-size: 14px;
   font-weight: 500;
   color: #374151;
+  transition: 150ms ease-in-out;
 }
 button i {
   color: #1e1f26;
   font-size: 13px;
   margin-right: 3px;
+}
+button:hover{
+    cursor:pointer;
+    background-color:#d1d5db;
+
 }
 .card-body h2 {
   font-size: 16px;
@@ -60,4 +68,22 @@ button i {
    margin-top: 30px;
    
 }
+.footer{
+background-color: #161619;
+padding:15px;
+border-radius: 0 0 16px 16px;
+ ;
+}
+.footer i{
+    color:#918E9B;
+    font-size: 25px;
 
+}
+.social-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color:#1e1f26;
+}
